@@ -168,7 +168,8 @@ hr {
     width: 50%;
     padding: 20px;
     display: flex;
-    gap: 520px;
+    justify-content: space-around;
+    gap: 540px;
     /* debug */
     height: 70px;
 }
