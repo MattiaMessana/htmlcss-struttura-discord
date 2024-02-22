@@ -101,3 +101,19 @@ header {
 
 
 /* fifth main */
+.fifth-conteiner{
+    background-color: #D3D3D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    /* debug */
+    /* height: 500px; */
+}
+.one-big-conteiner{
+    background-color: #278B21;
+    width: 800px;
+    /* debug */
+    height: 800px;
+    border: 2px dashed black;
+}
