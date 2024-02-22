@@ -55,3 +55,26 @@ header{
     height: 350px;
     border: 2px dashed black;
 }
+/* second main */
+.second-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    /* debug */
+    height: 500px;
+}
+.blue-conteiner{
+background-color:#3A90FF ;
+width: 70%;
+/* debug */
+height: 350px;
+border: 2px dashed black;
+}
+.yellow-conteiner{
+    background-color:#FCFB03 ;
+    width: 30%;
+    /* debug */
+    height: 350px;
+    border: 2px dashed black;
+}
