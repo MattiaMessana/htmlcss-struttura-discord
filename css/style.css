@@ -1,0 +1,40 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: #ADD8E6;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 250px;
+}
+.col-logo{
+    width: 15%;
+    background-color: #DAA51F;
+    /* debug */
+    /* height: 40px;  */
+    border: 1px dashed black;
+    
+}
+.col-link{
+    width: 70%;
+    background-color: #DAA51F;
+    text-align: center;
+    /* debug */
+    /* height: 40px;  */
+    border: 1px dashed black;
+    
+}
+.col-login{
+    width: 15%;
+    background-color: #DAA51F;
+    text-align: right;
+    /* debug */
+    /* height: 40px;  */
+    border: 1px dashed black;
+}
