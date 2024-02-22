@@ -1,11 +1,12 @@
 /* reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* header */
-header{
+header {
     background-color: #ADD8E6;
     height: 70px;
     display: flex;
@@ -13,24 +14,27 @@ header{
     align-items: center;
     padding: 20px 250px;
 }
-.col-logo{
+
+.col-logo {
     width: 15%;
     background-color: #DAA51F;
     /* debug */
     /* height: 40px;  */
     border: 1px dashed black;
-    
+
 }
-.col-link{
+
+.col-link {
     width: 70%;
     background-color: #DAA51F;
     text-align: center;
     /* debug */
     /* height: 40px;  */
     border: 1px dashed black;
-    
+
 }
-.col-login{
+
+.col-login {
     width: 15%;
     background-color: #DAA51F;
     text-align: right;
@@ -38,25 +42,28 @@ header{
     /* height: 40px;  */
     border: 1px dashed black;
 }
+
 /* main */
 /* first main */
-.first-conteiner{
-    background-color:#11078B;
+.first-conteiner {
+    background-color: #11078B;
     display: flex;
     align-items: center;
     justify-content: center;
     /* debug */
     height: 500px;
 }
-.pink-conteiner{
+
+.pink-conteiner {
     background-color: #EE82EE;
     width: 900px;
     /* debug */
     height: 350px;
     border: 2px dashed black;
 }
+
 /* second main */
-.second-conteiner{
+.second-conteiner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,17 +71,33 @@ header{
     /* debug */
     height: 500px;
 }
-.blue-conteiner{
-background-color:#3A90FF ;
-width: 70%;
-/* debug */
-height: 350px;
-border: 2px dashed black;
-}
-.yellow-conteiner{
-    background-color:#FCFB03 ;
-    width: 30%;
+
+.big-conteiner {
+    background-color: #3A90FF;
+    width: 70%;
     /* debug */
     height: 350px;
     border: 2px dashed black;
 }
+
+.small-conteiner {
+    background-color: #FCFB03;
+    width: 30%;
+    /* debug */
+    height: 350px;
+    border: 2px dashed black;
+} 
+/* third main */
+.third-conteiner{
+    background-color: #D3D3D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    /* debug */
+    height: 500px;
+}
+/* fourth main */
+
+
+/* fifth main */
