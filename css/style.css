@@ -86,9 +86,10 @@ header {
     /* debug */
     height: 350px;
     border: 2px dashed black;
-} 
+}
+
 /* third main */
-.third-conteiner{
+.third-conteiner {
     background-color: #D3D3D3;
     display: flex;
     align-items: center;
@@ -97,11 +98,12 @@ header {
     /* debug */
     height: 500px;
 }
+
 /* fourth main */
 
 
 /* fifth main */
-.fifth-conteiner{
+.fifth-conteiner {
     background-color: #D3D3D3;
     display: flex;
     align-items: center;
@@ -110,10 +112,76 @@ header {
     /* debug */
     /* height: 500px; */
 }
-.one-big-conteiner{
+
+.one-big-conteiner {
     background-color: #278B21;
     width: 800px;
     /* debug */
     height: 800px;
     border: 2px dashed black;
+}
+
+/* footer */
+
+.foot-conteiner {
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    /* debug */
+    height: 700px;
+}
+
+.col-conteiner-big {
+    background-color: #F08080;
+    width: 40%;
+    /* debug */
+    height: 500px;
+    border: 2px dashed black;
+}
+
+.col-conteiner-small {
+    background-color: #3AB2AA;
+    width: 20%;
+    /* debug */
+    height: 500px;
+    border: 2px dashed white;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+.bottom-conteiner {
+    background-color: #23272A;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* debug */
+    height: 150px;
+
+}
+
+.conteiner {
+    background-color: #7FFFD4;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    gap: 520px;
+    /* debug */
+    height: 70px;
+}
+
+.logo {
+    background-color: #F9B6C1;
+    /* debug */
+    border: 1px dashed black;
+}
+
+.botton {
+    background-color: #F9B6C1;
+    /* debug */
+    border: 1px dashed black;
+
 }
