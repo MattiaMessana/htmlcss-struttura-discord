@@ -38,3 +38,20 @@ header{
     /* height: 40px;  */
     border: 1px dashed black;
 }
+/* main */
+/* first main */
+.first-conteiner{
+    background-color:#11078B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* debug */
+    height: 500px;
+}
+.pink-conteiner{
+    background-color: #EE82EE;
+    width: 900px;
+    /* debug */
+    height: 350px;
+    border: 2px dashed black;
+}
