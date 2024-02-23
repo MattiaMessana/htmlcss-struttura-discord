@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* common */
+
 /* header */
 header {
     background-color: #ADD8E6;
@@ -46,20 +48,22 @@ header {
 /* main */
 /* first main */
 .first-conteiner {
-    background-color: #11078B;
     display: flex;
     align-items: center;
     justify-content: center;
     /* debug */
     height: 500px;
+    background-color: #11078B;
+
 }
 
 .pink-conteiner {
-    background-color: #EE82EE;
     width: 900px;
     /* debug */
     height: 350px;
     border: 2px dashed black;
+    background-color: #EE82EE;
+
 }
 
 /* second main */
@@ -73,30 +77,33 @@ header {
 }
 
 .big-conteiner {
-    background-color: #3A90FF;
     width: 70%;
     /* debug */
     height: 350px;
     border: 2px dashed black;
+    background-color: #3A90FF;
+
 }
 
 .small-conteiner {
-    background-color: #FCFB03;
     width: 30%;
     /* debug */
     height: 350px;
     border: 2px dashed black;
+    background-color: #FCFB03;
+
 }
 
 /* third main */
 .third-conteiner {
-    background-color: #D3D3D3;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 90px;
     /* debug */
     height: 500px;
+    background-color: #D3D3D3;
+
 }
 
 /* fourth main */
@@ -104,49 +111,54 @@ header {
 
 /* fifth main */
 .fifth-conteiner {
-    background-color: #D3D3D3;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px;
     /* debug */
     /* height: 500px; */
+    background-color: #D3D3D3;
+
 }
 
 .one-big-conteiner {
-    background-color: #278B21;
     width: 800px;
     /* debug */
     height: 800px;
     border: 2px dashed black;
+    background-color: #278B21;
+
 }
 
 /* footer */
 
 .foot-conteiner {
-    background-color: #23272A;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 90px;
     /* debug */
     height: 700px;
+    background-color: #23272A;
+
 }
 
 .col-conteiner-big {
-    background-color: #F08080;
     width: 40%;
     /* debug */
     height: 500px;
     border: 2px dashed black;
+    background-color: #F08080;
+
 }
 
 .col-conteiner-small {
-    background-color: #3AB2AA;
     width: 20%;
     /* debug */
     height: 500px;
     border: 2px dashed white;
+    background-color: #3AB2AA;
+
 }
 
 hr {
@@ -154,35 +166,39 @@ hr {
 }
 
 .bottom-conteiner {
-    background-color: #23272A;
     display: flex;
     align-items: end;
     justify-content: center;
     /* debug */
     height: 150px;
+    background-color: #23272A;
+
 
 }
 
 .conteiner {
-    background-color: #7FFFD4;
     width: 50%;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
-    justify-content: space-around;
-    gap: 540px;
+    justify-content: space-between;
+    align-items: center;
     /* debug */
     height: 70px;
+    background-color: #7FFFD4;
+
 }
 
 .logo {
-    background-color: #F9B6C1;
     /* debug */
     border: 1px dashed black;
+    background-color: #F9B6C1;
+
 }
 
 .botton {
-    background-color: #F9B6C1;
     /* debug */
     border: 1px dashed black;
+    background-color: #F9B6C1;
+
 
 }
